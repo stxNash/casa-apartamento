@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:rgb(235, 232, 232);
+}
+
+h1 {
+    background-color: rgba(240, 135, 60, 0.822);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-primaria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-primaria input {
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.div-secundaria {
+    display: flex;
+    justify-content: center;
+}
+
+
+.casa-apartamento{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.casa-apartamento div {
+    display: flex;
+    align-items: center;
+}
+
+.casa-apartamento input {
+    margin-right: 10px;
+}
+
+.casa-apartamento label {
+    font-size: 25px;
+}
+
+.apartamento {
+    display: flex;
+    justify-content: center;
+}
+
+.apartamento input {
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.753);
+    font-size: 25px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 50px;
+    width: 500px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgba(49, 11, 71, 0.815);
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+button:hover{
+   background-color: rgba(49, 11, 71, 0.651);
+   cursor: pointer;
+}
+
+.botao-fim {
+    display: flex;
+    justify-content: center;
+}
+
+#resultado {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    font-size: 30px;
+}
+

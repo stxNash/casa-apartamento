@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Imóvel</h1>
+    <div class="div-primaria">
+        <input type="text" placeholder="Digite um número de quartos" id="quartos">
+        <input type="text" placeholder="Digite a metragem " required id="metragem">
+        <input type="text" placeholder="Preço do m²" required id="preco">
+    </div>
+
+    <div class="div-secundaria">
+        <div class="casa-apartamento">
+            <div>
+            <input type="radio" name="opcao" id="radio-casa"><label>Casa</label> 
+            </div>
+            <div>
+            <input type="radio" name="opcao" id="radio-ap"><label>Apartamento</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="apartamento">
+        <input type="text" placeholder="Nº do andar" id="andar">
+    </div>
+
+    <div class="botao-fim">
+        <button onclick="calculador()">Calcular</button> 
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
